@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unidad Ave Fénix  - Tupperware</title>
+  <meta name="description" content="Productos Tupperware de calidad ofrecidos por Unidad Ave Fénix 2.0 en México.">
+  <meta name="author" content="Unidad Ave Fénix" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fffaf6;
+      margin: 0;
+      padding: 0;
+      color: #1d3557;
+    }
+    header {
+      background-color: #e63946;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f1faee;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #1d3557;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, textarea, button {
+      margin: 10px 0;
+      padding: 12px;
+      font-size: 1em;
+    }
+    button {
+      background-color: #457b9d;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1d3557;
+    }
+    footer {
+      background-color: #a8dadc;
+      color: #1d3557;
+      text-align: center;
+      padding: 25px;
+    }
+    .social a {
+      margin: 0 12px;
+      text-decoration: none;
+      font-size: 22px;
+      color: #1d3557;
+    }
+    .social a:hover {
+      color: #e63946;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Unidad Ave Fénix </h1>
+    <p>Productos Tupperware de calidad para tu hogar</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="productos">
+      <h2>Nuestros Productos</h2>
+      <div class="gallery">
+        <!-- Sustituye estas imágenes con tus fotos reales -->
+        <img src="https://via.placeholder.com/150" alt="Producto real 1">
+        <img src="https://via.placeholder.com/150" alt="Producto real 2">
+        <img src="https://via.placeholder.com/150" alt="Producto real 3">
+        <img src="https://via.placeholder.com/150" alt="Producto real 4">
+      </div>
+    </section>
+
+    <section id="nosotros">
+      <h2>¿Quiénes Somos?</h2>
+      <p>Unidad Ave Fénix es un grupo de emprendedoras apasionadas por ofrecer los mejores productos Tupperware en México. Nos comprometemos a brindar calidad, atención personalizada y promociones exclusivas para tu hogar.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="mailto:EDY200993@GMAIL.COM" method="post" enctype="text/plain">
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="email" placeholder="Tu correo" required>
+        <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Unidad Ave Fénix  - Todos los derechos reservados</p>
+    <div class="social">
+      <a href="https://www.facebook.com/profile.php?id=100083322465633" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/ave.fenix.t/" target="_blank">Instagram</a>
+      <a href="https://wa.me/5217651027023" target="_blank">WhatsApp</a>
+      <a href="mailto:EDY200993@GMAIL.COM">Correo</a>
+    </div>
+  </footer>
+
+</body>
+</html>
